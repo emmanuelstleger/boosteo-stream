@@ -12,7 +12,6 @@ import useMessage from "hooks/message";
 import useSubscriber from "hooks/subscriber";
 
 import LiveBadge from "components/LiveBadge";
-import VonageLogo from "components/VonageLogo"
 import WhiteLayer from "components/WhiteLayer";
 import ChatList from "components/ChatList";
 import ChatInput from "components/ChatInput";
@@ -129,14 +128,6 @@ function CeoPage(){
           <div className={mStyles.logoContainer}>
             <LiveBadge/>
           </div>
-          <VonageLogo 
-            style={{ 
-              position: "absolute", 
-              bottom: 32, 
-              right: 32,
-              zIndex: 2 
-            }}
-          />
         </div>
         <div className={mStyles.rightContainer}>
           <div className={mStyles.moderator}>

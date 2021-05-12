@@ -14,6 +14,7 @@ function VonageLogo(props){
 
   return (
     <div style={{ ...styles.default, ...style }}>
+      <small style={{ color: "black" }}>Powered By</small>
       <div style={styles.logo}/>
     </div>
   )

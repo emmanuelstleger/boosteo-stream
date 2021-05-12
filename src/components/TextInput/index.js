@@ -16,5 +16,5 @@ function TextInput(props){
   )
 }
 
-TextInput.defaultProps = { placeholder: "Say something..." }
+TextInput.defaultProps = { placeholder: "Tappez ici votre message..." }
 export default TextInput;

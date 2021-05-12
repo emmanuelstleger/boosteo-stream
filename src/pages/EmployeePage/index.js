@@ -12,7 +12,6 @@ import usePublisher from "hooks/publisher";
 import useMessage from "hooks/message";
 
 import LiveBadge from "components/LiveBadge";
-import VonageLogo from "components/VonageLogo"
 import WhiteLayer from "components/WhiteLayer";
 import ChatList from "components/ChatList";
 import ChatInput from "components/ChatInput";
@@ -114,11 +113,10 @@ function EmployeePage(){
         <WhiteLayer />
         <div className={mStyles.logoContainer}>
           <LiveBadge/>
-          {!mPublisher.publisher? <RaiseHandButton />: null}
+          {false && /* false arrête la lecture du code */ !mPublisher.publisher? <RaiseHandButton />: null}
         </div>
-        <VonageLogo style={{ position: "absolute", bottom: 32, right: 32, zIndex: 2 }}/>
       </div>
-      <div className={mStyles.rightContainer}>
+      {/* <div className={mStyles.rightContainer}>
         <div className={mStyles.moderator}>
           <LayoutContainer id="moderatorContainer" size="big" />
         </div>
@@ -134,7 +132,7 @@ function EmployeePage(){
           <ChatList/>
           <ChatInput user={me} byPass={false}/>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
