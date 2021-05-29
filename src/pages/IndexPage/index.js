@@ -28,7 +28,7 @@ function IndexPage() {
         <br />
         <h1>Bienvenue sur Boosteo Online !</h1>
         <p>
-          Choisissez votre rôle en cliquant sur les boutons ci-dessous.
+          Choisissez votre rôle en cliquant sur les boutons ci-dessous :
         </p>
         <br />
         <Button
